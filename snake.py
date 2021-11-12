@@ -5,7 +5,6 @@ INITIAL_POSITION = [(0, 0), (-10, 0), (-20, 0)]
 MOVE_STEP = 10
 
 
-
 class Snake:
 
     def __init__(self):
@@ -15,7 +14,7 @@ class Snake:
 
     def makesnake(self):
         for position in INITIAL_POSITION:
-         self.add_segment(position)
+            self.add_segment(position)
 
     def move(self):
         for i in range(len(self.whole_snake) - 1, 0, -1):
@@ -23,7 +22,6 @@ class Snake:
             y_component = self.whole_snake[i - 1].ycor()
             self.whole_snake[i].goto(x_component, y_component)
         self.head.forward(MOVE_STEP)
-
 
     def add_segment(self, position):
         snake = turtle.Turtle()
@@ -40,7 +38,6 @@ class Snake:
         # add new segment to the snake
         self.add_segment(self.whole_snake[-1].position())
 
-
     def up(self):
         if self.head.heading() != 270:
             self.head.seth(90)
@@ -56,5 +53,3 @@ class Snake:
     def right_go(self):
         if self.head.heading() != 180:
             self.head.seth(0)
-
-
