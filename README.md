@@ -1,3 +1,5 @@
 # Snake Game
 
-This game was the most popular game
+Snake is the common name for a video game concept where the player maneuvers a line which grows in length, with the line itself being a primary obstacle. The concept originated in 1976 two-player arcade game Blockade from Gremlin Industries, and the ease of implementing Snake has led to hundreds of versions (some of which have the word snake or worm in the title) for many platforms. 1982's Tron arcade game, based on the movie, includes Snake gameplay for the single-player Light Cycles segment, cementing a connection between the two. After a variant was preloaded on Nokia mobile phones in 1998, there was a resurgence of interest in the snake concept as it found a larger audience.
+
+The player controls a dot, square, or object on a bordered plane. As the snake moves forward, it leaves a trail behind (resembling a moving snake). In a common scheme, the snake has a specific length at first, so there is a moving tail a fixed number of units away from the head. The sole player attempts to eat items by running into them with the head of the snake. Each item eaten makes the snake longer, so avoiding collision with the snake becomes progressively more difficult. The player loses when the snake runs into the screen border or itself.
